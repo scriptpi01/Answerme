@@ -1,0 +1,70 @@
+/* src/components/QuestionCard.css */
+.question-card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+.question-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.question-card img {
+  width: 100%;
+  height: 250px; /* or your preferred height */
+  object-fit: cover;
+}
+
+.question-card h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.question-details {
+  padding: 10px;
+}
+
+.submit-button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1d1c1c;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 18px;
+}
+
+.submit-button:hover {
+  background-color: #333;
+}
+
+.question-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    white-space: pre-wrap; /* Ensures the formatting of the question is maintained */
+  }
+  
+  .answer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+  }
+  
+  .submit-button {
+    /* ... other styles ... */
+    width: 100%; /* Makes the button stretch to the full width of the form */
+  }

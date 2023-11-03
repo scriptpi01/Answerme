@@ -1,0 +1,37 @@
+.login-container {
+    font-size: 20px;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 0px solid #ddd;
+    border-radius: 20px;
+    margin-top: 110px;
+  }
+/*   
+  .login-form .form-group {
+    margin-bottom: 1rem;
+  } */
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-form button.btn {
+    font-size: 20px;
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+  

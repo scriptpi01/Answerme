@@ -1,0 +1,61 @@
+/* Header.css */
+
+.header {
+  font-size: 15px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Adjusted for alignment */
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none; /* Remove underline */
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header ul {
+    flex-direction: column;
+    width: 100%;
+    display: none; /* Hide the menu initially */
+  }
+
+  .header li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .header.active ul {
+    display: flex; /* Show the menu when active */
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    display: block; /* Show the menu icon */
+  }
+}
+
+/* Hide menu icon on larger screens */
+@media (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+}

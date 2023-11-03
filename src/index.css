@@ -1,0 +1,59 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a simple default font */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Simple styling for the main content */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  /* List reset */
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Link reset */
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
